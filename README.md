@@ -10,15 +10,22 @@ Tokenization is a critical step in building a language model, as neural networks
 
 **Tokenization Workflow**
 
-Load raw text data (Verdict Story) \n
+Load raw text data (Verdict Story) 
+
 Split text into individual tokens
+
 Build a vocabulary from unique tokens
+
 Assign a unique ID to each token
+
 Convert text into token IDs for model training
 
 **Vocabulary Creation**
 
 After tokenizing the text:
+
 Unique tokens are extracted
+
 A vocabulary dictionary is created
+
 Each token is mapped to a unique integer ID
